@@ -50,7 +50,7 @@ planet inside it orbit --> */}
         </a-entity>
 
     <a-entity mixin="orbit" animation="dur: 80000;" >    
-    <a-sphere id="Jupiter" position="24 1.25 0" radius="2.2" src={jupiter} mixin="rotation" ></a-sphere>
+    <a-sphere id="Jupiter" position="-24 1.25 0" radius="2.2" src={jupiter} mixin="rotation" ></a-sphere>
         </a-entity>
 
     <a-entity mixin="orbit" animation="dur: 100000;" >
@@ -60,7 +60,7 @@ planet inside it orbit --> */}
     </a-entity>
 
     <a-entity mixin="orbit" animation="dur: 120000;" >
-    <a-sphere id="Uranus" position="43 1.25 0" radius="1" src={uranus} mixin="rotation" ></a-sphere>
+    <a-sphere id="Uranus" position="-43 1.25 0" radius="1" src={uranus} mixin="rotation" ></a-sphere>
         </a-entity>
 
     <a-entity mixin="orbit" animation="dur: 140000;" >    
@@ -68,7 +68,7 @@ planet inside it orbit --> */}
         </a-entity>
     
     <a-entity mixin="orbit" animation="dur: 160000;" >  
-    <a-sphere id="Pluto" position="55 1.25 0" radius="0.5" src={pluto} mixin="rotation" ></a-sphere>
+    <a-sphere id="Pluto" position="-55 1.25 0" radius="0.5" src={pluto} mixin="rotation" ></a-sphere>
         </a-entity>  
 
 
@@ -78,9 +78,8 @@ planet inside it orbit --> */}
 
 
 
-    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
     <a-sky src={sky}></a-sky>
-    <a-camera position="5 5 30" look-controls-enabled="true"></a-camera>
+    <a-camera position="0 7 30" look-controls-enabled="true"></a-camera>
     <a-light type="ambient" intensity="2.0" color="#BBB" distance="30"></a-light>
 
 </a-scene>
