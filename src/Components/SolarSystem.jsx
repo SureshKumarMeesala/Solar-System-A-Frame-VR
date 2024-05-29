@@ -11,7 +11,7 @@ import jupiter from '../Images/jupiter.jpeg'
 import saturn from '../Images/saturn.jpeg'
 import uranus from '../Images/uranus.jpeg'
 import neptune from '../Images/neptune.jpeg'
-import pluto from '../Images/pluto.webp'
+// import pluto from '../Images/pluto.webp'
 
 
 
@@ -67,9 +67,9 @@ planet inside it orbit --> */}
     <a-sphere id="Neptune" position="48 1.25 0" radius="1.25" src={neptune} mixin="rotation" ></a-sphere>
         </a-entity>
     
-    <a-entity mixin="orbit" animation="dur: 160000;" >  
+{/*     <a-entity mixin="orbit" animation="dur: 160000;" >  
     <a-sphere id="Pluto" position="-55 1.25 0" radius="0.5" src={pluto} mixin="rotation" ></a-sphere>
-        </a-entity>  
+        </a-entity>   */}
 
 
 
